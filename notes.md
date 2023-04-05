@@ -23,6 +23,14 @@ vim                 (vim mode)
 
 git config --global init.defaultBranch main 
                     (Change branch name from master to main) 
+git checkout -b <new_branch> (create new branch and switch)
+
+# once pull request been made --> dont work on the same brance again
+
+# pushing to staging & test before pushing to main
+staging -> dev (push everything to staging first and then when approve, push it to main) # can change default branch from <main> to <staging>
+main -> production
+db -> backup
 
 # General terminal commands
 ls      (Show files in this directory)
