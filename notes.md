@@ -25,6 +25,8 @@ git config --global init.defaultBranch main
                     (Change branch name from master to main) 
 git checkout -b <new_branch> (create new branch and switch)
 
+git remote remove <the thing to remove>
+
 # once pull request been made --> dont work on the same brance again
 
 # pushing to staging & test before pushing to main
@@ -51,3 +53,22 @@ M - Modified
 
 
 cmd + j = open terminal in vscode
+
+
+
+
+
+# New project
+Make folder & cd
+git init
+code .
+Add README.md
+cmd + J
+git add <filename>
+git commit -m "change ..."
+Copy <git remote add origin ...> from new repo
+git remote -v               (to check the connection to new repo)
+git branch -M main          (to change from master to main)
+git push -u origin
+
+add .gitignore
